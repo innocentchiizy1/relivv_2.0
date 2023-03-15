@@ -1,0 +1,36 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  padding: 1.5rem;
+}
+.left h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.left p {
+  font-weight: 350;
+  font-size: 2rem;
+}
+
+.right {
+  background-color: rgb(36, 36, 36);
+  border-bottom-left-radius: 4rem;
+}
+.consult {
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  padding: 1rem;
+  background-color: rgb(37, 185, 37);
+  color: white;
+  border: green;
+  border-bottom-right-radius: 3rem;
+  cursor: pointer;
+}
+.consult:hover {
+  padding: 1rem;
+  background-color: rgb(8, 182, 8);
+}

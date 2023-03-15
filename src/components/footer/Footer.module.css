@@ -1,0 +1,23 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-color: rgb(103, 241, 103);
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  height: auto;
+}
+
+h2 {
+  padding-left: 2rem;
+}
+.list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 1rem;
+}
+.logo {
+  padding-left: 9rem;
+  padding-top: 1rem;
+}

@@ -1,0 +1,26 @@
+.main {
+  text-align: center;
+  padding: 2rem;
+}
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  padding-top: 2rem;
+}
+.how {
+  text-underline-position: under;
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+.chat {
+  color: white;
+  background-color: green;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  width: 20%;
+  margin-top: 30px;
+  border-bottom-right-radius: 2rem;
+  cursor: pointer;
+}

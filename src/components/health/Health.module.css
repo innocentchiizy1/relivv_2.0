@@ -1,0 +1,25 @@
+.main {
+  text-align: center;
+  background-image: url(../../assets/healthTipsBackground.svg);
+}
+h1 {
+  font-weight: 500;
+}
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+  gap: 2rem;
+}
+.box li {
+  align-items: center;
+  list-style: none;
+  font-size: 1rem;
+  padding: 2rem;
+}
+.box {
+  border: 1px solid;
+  border-color: transparent;
+  box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 0.2);
+  border-bottom: 6px green solid;
+}
