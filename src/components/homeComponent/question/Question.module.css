@@ -1,0 +1,42 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.chat {
+  color: white;
+  background-color: green;
+  border: none;
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  height: 65px;
+  width: 45%;
+  margin-top: 30px;
+  border-bottom-right-radius: 2rem;
+  cursor: pointer;
+}
+.left{
+    
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+}

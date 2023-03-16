@@ -1,8 +1,8 @@
 import React from "react";
 import css from "../how/How.module.css";
-import Doc from "../../assets/HowItWorksDocs.svg";
-import Pick from "../../assets/HowItWorksPickVolunteer.svg";
-import Select from "../../assets/startTherapyIcon.svg";
+import Doc from "../../../assets/HowItWorksDocs.svg";
+import Pick from "../../../assets/HowItWorksPickVolunteer.svg";
+import Select from "../../../assets/startTherapyIcon.svg";
 export const How = () => {
   return (
     <div>

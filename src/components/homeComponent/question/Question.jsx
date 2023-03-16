@@ -1,6 +1,6 @@
 import React from "react";
 import css from "../question/Question.module.css";
-// import question from "../../assets/HaveAQuestionSect.svg";
+// import question from "../../../assets/HaveAQuestionSect.svg";
 
 export const Question = () => {
   return (

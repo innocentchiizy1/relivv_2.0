@@ -1,0 +1,112 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  display: flex;
+  padding: 1.5rem;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+.nav li:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+
+  padding: 1.5rem;
+  background-color: rgb(36, 36, 36);
+  border-top-left-radius: 50px;
+}
+.button {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  gap: 1.5rem;
+  color: white;
+}
+
+.register {
+  background-color: rgb(8, 182, 8);
+  font-size: 1.5rem;
+  border-bottom-right-radius: 25px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.login {
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  border: none;
+
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.link:hover {
+  color: rgb(8, 182, 8);
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .home {
+    display: grid;
+  }
+  .logo {
+  }
+
+  .left {
+  }
+  .nav {
+    display: flex;
+    gap: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .nav li:hover {
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    background-color: rgb(36, 36, 36);
+    border-top-left-radius: 50px;
+  }
+  .button {
+  }
+
+  .register {
+  }
+  .login {
+  }
+  .link:hover {
+  }
+  .link {
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}

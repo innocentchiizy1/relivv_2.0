@@ -8,7 +8,7 @@
   height: auto;
 }
 
-h2 {
+h4 {
   padding-left: 2rem;
 }
 .list {
@@ -20,4 +20,25 @@ h2 {
 .logo {
   padding-left: 9rem;
   padding-top: 1rem;
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
 }

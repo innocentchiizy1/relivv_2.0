@@ -1,6 +1,6 @@
 .main {
   text-align: center;
-  background-image: url(../../assets/healthTipsBackground.svg);
+  background-image: url(../../../assets/healthTipsBackground.svg);
 }
 h1 {
   font-weight: 500;
@@ -22,4 +22,24 @@ h1 {
   border-color: transparent;
   box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 0.2);
   border-bottom: 6px green solid;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
 }

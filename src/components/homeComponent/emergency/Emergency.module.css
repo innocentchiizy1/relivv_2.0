@@ -1,0 +1,73 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5rem;
+}
+.right {
+  padding: 3.5rem;
+}
+
+.left {
+  width: 80%;
+  height: 50%;
+}
+.chat {
+  color: white;
+  background-color: green;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  width: 45%;
+  border-bottom-right-radius: 2rem;
+  cursor: pointer;
+}
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5rem;
+  }
+  .right {
+    padding: 1rem;
+  }
+  .h3{
+    font-weight: 500;
+  }
+  
+  .left {
+    margin-top: 40px;
+    width: 80%;
+    height: 50%;
+  }
+  .chat {
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    width: 45%;
+    border-bottom-right-radius: 2rem;
+    cursor: pointer;
+  }
+  
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import css from "../volunteer2/Volunteer2.module.css";
-import vol from "../../assets/AreYouAVolunteer.svg";
+import vol from "../../../assets/AreYouAVolunteer.svg";
 
 export const Volunteer2 = () => {
   return (

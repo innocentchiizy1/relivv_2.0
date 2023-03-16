@@ -1,6 +1,6 @@
 import React from "react";
-import css from "../emergency/Emergency.module.css";
-import image from "../../assets/HomeSection2Asset.svg";
+import css from "./Emergency.module.css";
+import image from "../../../assets/HomeSection2Asset.svg";
 
 export const Emergency = () => {
   return (
@@ -15,7 +15,7 @@ export const Emergency = () => {
         <p>Are you under panic?</p>
         <p>Are you going through Trauma with no one to talk to?</p>
         <p>Communicate your way</p>
-        <h3>Our Volunteers are available to hear you anyday! anytime!!</h3>
+        <h3 className={css.h3}>Our Volunteers are available to hear you anyday! anytime!!</h3>
         <button className={css.chat}>Chat with Us!</button>
       </div>
     </div>

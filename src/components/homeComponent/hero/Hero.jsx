@@ -1,6 +1,6 @@
 import React from "react";
 import css from "../hero/Hero.module.css";
-import landing from "../../assets/LandingPageMain.svg";
+import landing from "../../../assets/LandingPageMain.svg";
 
 export const Hero = () => {
   return (

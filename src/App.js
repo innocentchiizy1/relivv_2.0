@@ -1,27 +1,18 @@
+import React from "react";
 import "./App.css";
-import { Emergency } from "./components/emergency/Emergency";
-import { Footer } from "./components/footer/Footer";
-import { Header } from "./components/header/Header";
-import { Health } from "./components/health/Health";
-import { Hero } from "./components/hero/Hero";
-import { How } from "./components/how/How";
-import { Question } from "./components/question/Question";
-import { Volunteer2 } from "./components/volunteer2/Volunteer2";
-import { Volunteers } from "./components/volunteers/Volunteers";
+import { HomeScreen } from "./screens/home/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Login from "./screens/login/Login";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Emergency />
-      <Health />
-      <Volunteers />
-      <How />
-      <Question />
-      <Volunteer2 />
-      <Footer/>
-    </div>
+    
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomeScreen />} exact />
+        <Route path="/login" element={<Login />} exact />
+      </Routes>
+    </Router>
   );
 }
 
