@@ -102,6 +102,41 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .home {
+    display: grid;
+  }
+  .logo {
+  }
+
+  .left {
+  }
+  .nav {
+    display: flex;
+    gap: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .nav li:hover {
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    background-color: rgb(36, 36, 36);
+    border-top-left-radius: 50px;
+  }
+  .button {
+  }
+
+  .register {
+  }
+  .login {
+  }
+  .link:hover {
+  }
+  .link {
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -109,4 +144,40 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+
+  .home {
+    display: grid;
+  }
+  .logo {
+  }
+
+  .left {
+  }
+  .nav {
+    display: flex;
+    gap: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .nav li:hover {
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    background-color: rgb(36, 36, 36);
+    border-top-left-radius: 50px;
+  }
+  .button {
+  }
+
+  .register {
+  }
+  .login {
+  }
+  .link:hover {
+  }
+  .link {
+  }
 }

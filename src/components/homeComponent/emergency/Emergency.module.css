@@ -69,5 +69,31 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-
+  .main {
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 1.5rem;
+  }
+  .right {
+    padding: 1rem;
+  }
+  .h3{
+    font-weight: 500;
+  }
+  
+  .left {
+    margin-top: 40px;
+    width: 80%;
+    height: 50%;
+  }
+  .chat {
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 1rem;
+    padding: 0.8rem;
+    width: 70%;
+    border-bottom-right-radius: 2rem;
+    cursor: pointer;
+  }
 }

@@ -14,15 +14,15 @@ import { How } from './../../components/homeComponent/how/How';
 export const HomeScreen = () => {
   return (
     <div>
-      <Header />
-      <Hero />
+      {/* <Header />
+      <Hero /> */}
       <Emergency />
-      <Health />
+      {/* <Health />
       <Volunteers />
       <How />
       <Question />
       <Volunteer2 />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
