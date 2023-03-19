@@ -22,23 +22,40 @@ h4 {
   padding-top: 1rem;
 }
 
-
-
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-
 }
 
 @media screen and (max-width: 576px) {
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 600px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: rgb(103, 241, 103);
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+  }
 
+  h4 {
+    padding-left: 1rem;
+  }
+  .list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 1rem;
+  }
+  .logo {
+    padding-left: 9rem;
+    padding-top: 1rem;
+  }
 }

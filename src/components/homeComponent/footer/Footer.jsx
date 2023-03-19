@@ -24,7 +24,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <img src={logo} alt="" className={css.logo}></img>
+        {/* <img src={logo} alt="" className={css.logo}></img> */}
       </div>
     </div>
   );

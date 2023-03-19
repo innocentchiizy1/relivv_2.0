@@ -19,10 +19,10 @@ export const HomeScreen = () => {
       <Emergency />
       <Health />
       <Volunteers />
-      {/* <How />
+      <How />
       <Question />
       <Volunteer2 />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

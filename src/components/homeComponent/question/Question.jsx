@@ -1,13 +1,13 @@
 import React from "react";
 import css from "../question/Question.module.css";
-// import question from "../../../assets/HaveAQuestionSect.svg";
+import question from "../../../assets/HaveAQuestionSect.svg";
 
 export const Question = () => {
   return (
     <div>
       <div className={css.main}>
         <div className={css.left}>
-          {/* <img src={question} alt=""></img> */}
+          <img src={question} alt=""></img>
         </div>
         <div className={css.right}>
           <h1>Have a Question?</h1>
