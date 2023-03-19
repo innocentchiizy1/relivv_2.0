@@ -9,7 +9,7 @@ export const Header = () => {
     <div className={css.home}>
       <div className={css.left}>
         <div className={css.logo}>
-          {/* <img src={Logo} alt="logo"></img> */}
+          <img src={Logo} alt="logo"></img>
         </div>
         <div className={css.nav}>
           <ul className={css.nav}>

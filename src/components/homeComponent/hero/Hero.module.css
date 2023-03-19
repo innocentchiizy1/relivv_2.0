@@ -89,6 +89,43 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
-
+@media screen and (max-width: 600px) {
+.home {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .left {
+    padding: 1.5rem;
+    
+  }
+  .left h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+  .left p {
+    font-weight: 350;
+    font-size: 1.5rem;
+  }
+  
+  .right {
+    background-color: rgb(36, 36, 36); 
+     border-bottom-left-radius: 0rem; 
+  }
+  .consult {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    padding: 0.6rem;
+    background-color: rgb(37, 185, 37);
+    color: white;
+    border: green;
+    border-bottom-right-radius: 2rem;
+    cursor: pointer;
+  }
+  .consult:hover {
+    padding: 1rem;
+    background-color: rgb(8, 182, 8);
+  }
+  
 }

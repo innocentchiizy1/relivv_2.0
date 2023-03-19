@@ -6,7 +6,7 @@ export const Health = () => {
     <div className={css.main}>
       <div>
         <div>
-          <h1>Health Tips</h1>
+          <h1 className={css.health1}>Health Tips</h1>
         </div>
         <div className={css.list}>
           <div className={css.box}>

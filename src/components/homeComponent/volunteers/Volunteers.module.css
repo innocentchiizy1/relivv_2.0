@@ -38,5 +38,29 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 600px) {
+  .main {
+    text-align: center;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .circle {
+    background-color: green;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 70px;
+    color: white;
+  }
+  .icon {
+    padding: 2rem;
+  }
+  .vol {
+    text-underline-position: under;
+    text-decoration: underline;
+    text-decoration-color: green;
+  }
 }

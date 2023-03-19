@@ -24,22 +24,45 @@ h1 {
   border-bottom: 6px green solid;
 }
 
-
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-
 }
 
 @media screen and (max-width: 576px) {
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
-
+@media screen and (max-width: 600px) {
+  .main {
+    text-align: center;
+    background-image: url(../../../assets/healthTipsBackground.svg);
+  }
+  .health1 {
+    font-weight: 500;
+    text-decoration: underline green 3px;
+    text-underline-position: under;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .box li {
+    align-items: center;
+    list-style: none;
+    font-size: 1rem;
+    padding: 2rem;
+  }
+  .box {
+    border: 1px solid;
+    border-color: transparent;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 0.2);
+    border-bottom: 6px green solid;
+  }
 }
