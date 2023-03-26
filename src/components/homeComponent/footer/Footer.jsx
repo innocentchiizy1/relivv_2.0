@@ -2,6 +2,7 @@ import React from "react";
 import css from "../footer/Footer.module.css";
 import logo from "../../../assets/logo.png";
 import { FaFacebook, FaGoogle, FaInstagram, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -11,16 +12,24 @@ export const Footer = () => {
         <div>
           <ul className={css.list}>
             <li>
-              <FaFacebook />
+              <Link>
+                <FaFacebook />
+              </Link>
             </li>
             <li>
-              <FaInstagram />
+              <Link>
+                <FaInstagram />
+              </Link>
             </li>
             <li>
-              <FaGoogle />
+              <Link>
+                <FaGoogle />
+              </Link>
             </li>
             <li>
-              <FaTwitter />
+              <Link>
+                <FaTwitter />
+              </Link>
             </li>
           </ul>
         </div>
